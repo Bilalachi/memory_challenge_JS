@@ -7,6 +7,10 @@ The device creates a series of tones and lights and requires a user to repeat th
 
 ### Take a Look! :eyes:
 
+
+https://user-images.githubusercontent.com/48368444/151626176-67d9598a-2380-45ac-b6ae-f156c5daf739.mp4
+
+
 ### Made With
 <img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
