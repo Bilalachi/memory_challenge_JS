@@ -12,8 +12,6 @@ The device creates a series of tones and lights and requires a user to repeat th
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <img align="left" alt="jQuery" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" />
 
-### Link To The Game
-Give it a try, it's working :wink: https://bilalachi.github.io/memory_challenge_JS/
 
 ### Additional information
 The game can be linked to two scripts, vanilla javaSctipt and jQuery. :computer: <br/>
