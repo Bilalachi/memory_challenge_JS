@@ -18,15 +18,17 @@
             }
         });
         
+        //helper function for animation
         function animate(botton) {
             document.getElementById(botton).classList.add("pressed");
             setTimeout(function () {
                 document.getElementById(botton).classList.remove("pressed");
             }, 150);
         }
-    
-        function sound(name) {
-            var audio = new Audio("sounds/" + name + ".mp3");
+        
+        //helper function for audio
+        function sound(colorsound) {
+            var audio = new Audio("sounds/" + colorsound + ".mp3");
             audio.play();
         }
 
@@ -60,19 +62,19 @@
                 animate(player_input);
                 sound(player_input);
                 
-                validatePatterns(player_pattern.length - 1);
+                check(player_pattern.length - 1);
             });
         }
 
-    //validate if correct and add a new color ro the pattern
-    function validatePatterns(current_level) {
-        if (generated_pattern[current_level] == player_pattern[current_level]) {
+    //check if correct and add a new color ro the pattern
+    function check(this_level) {
+        if (generated_pattern[this_level] == player_pattern[this_level]) {
             if (generated_pattern.length == player_pattern.length) {
                 setTimeout(function () {
                     start_game();
                 }, 1000);
             }
-        }else { //if validation failed declare loss and start again
+        }else { //if check failed declare loss and start again
             var wronganswer = new Audio("sounds/wrong.mp3");
             wronganswer.play();
             document.body.classList.add("game-over");
